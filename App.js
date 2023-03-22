@@ -4,12 +4,9 @@ import { NavigationContainer, StackActions } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { StatusBar } from "react-native";
 
-import ViewImageScreen from "./app/screens/ViewImageScreen";
-import WelcomeScreen from "./app/screens/WelcomeScreen";
-import MainScreen from "./app/screens/MainScreen";
-import LoginScreen from "./app/screens/LoginScreen";
-import ImagePickerScreen from "./app/screens/ImagePickerScreen";
-import CameraScreen from "./app/screens/CameraScreen";
+import Homepage from "./app/screens/Homepage";
+import Detailitem from "./app/screens/Detailitem";
+import ProfileDiri from "./app/screens/ProfileDiri";
 
 const Stack = createNativeStackNavigator();
 
